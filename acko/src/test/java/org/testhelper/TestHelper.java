@@ -1,21 +1,10 @@
-/**
- * 
- */
-package org.testhelper;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
+package org.testhelper;
 
 import org.acko.base.TestBase;
 import org.acko.client.RestClient;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import com.google.gson.JsonElement;
